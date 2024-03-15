@@ -1,16 +1,10 @@
 import 'package:flutter/material.dart';
-//import 'package:material3/auth_widget.dart';
 import 'main_screen_widget.dart';
 
 //video no 123 of maximilian, learrning how to create a theme for my app
-/* var kColorScheme = ColorScheme.fromSeed(
-  seedColor: const Color.fromARGB(255, 99, 30, 247),
-  //seedColor: const Color.fromARGB(255, 199, 177, 247)
-); */
 
 var kColorScheme = ColorScheme.fromSeed(
   seedColor: const Color.fromARGB(255, 136, 94, 227),
-  //seedColor: const Color.fromARGB(255, 199, 177, 247)
 );
 
 var kLogoText = const Text(" M A T E R I A L  3");
@@ -146,7 +140,6 @@ class MainApp extends StatelessWidget {
       ),
       routes: {
         //if i want to go back to the authorization screen, i must change "/" to "/auth", AND use pushNamed istead of pushReplacementNamed
-        //"/auth": (context) => const AuthWidget(),
         "/": (context) => const MainScreenWidget(),
       },
       initialRoute: "/",
