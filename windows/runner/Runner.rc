@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "themoviedb" "\0"
+            VALUE "FileDescription", "material3" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "themoviedb" "\0"
+            VALUE "InternalName", "material3" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "themoviedb.exe" "\0"
-            VALUE "ProductName", "themoviedb" "\0"
+            VALUE "OriginalFilename", "material3.exe" "\0"
+            VALUE "ProductName", "material3" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

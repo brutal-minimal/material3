@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:themoviedb/main.dart';
+import 'package:material3/main.dart';
 
 class ShowsWidget extends StatelessWidget {
   const ShowsWidget({super.key});

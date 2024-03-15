@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:themoviedb/auth_widget.dart';
+import 'package:material3/auth_widget.dart';
 import 'main_screen_widget.dart';
 
 //video no 123 of maximilian, learrning how to create a theme for my app
