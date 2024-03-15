@@ -1,4 +1,4 @@
-package com.example.themoviedb
+package com.example.material3
 
 import io.flutter.embedding.android.FlutterActivity
 

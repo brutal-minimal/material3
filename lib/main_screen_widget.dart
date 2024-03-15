@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:themoviedb/main.dart';
-import 'package:themoviedb/main_screen_widgets/home_widget.dart';
-import 'package:themoviedb/main_screen_widgets/movies_widget.dart';
-import 'package:themoviedb/main_screen_widgets/shows_widget.dart';
+import 'package:material3/main.dart';
+import 'package:material3/main_screen_widgets/home_widget.dart';
+import 'package:material3/main_screen_widgets/movies_widget.dart';
+import 'package:material3/main_screen_widgets/shows_widget.dart';
 
 class MainScreenWidget extends StatefulWidget {
   const MainScreenWidget({super.key});

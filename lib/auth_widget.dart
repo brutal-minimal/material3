@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:themoviedb/main.dart';
+import 'package:material3/main.dart';
 
+
+//TODO REMOVE THIS WIDGET
 class AuthWidget extends StatefulWidget {
   const AuthWidget({super.key});
 
