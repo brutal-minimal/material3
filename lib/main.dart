@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:material3/auth_widget.dart';
+//import 'package:material3/auth_widget.dart';
 import 'main_screen_widget.dart';
 
 //video no 123 of maximilian, learrning how to create a theme for my app
@@ -13,7 +13,7 @@ var kColorScheme = ColorScheme.fromSeed(
   //seedColor: const Color.fromARGB(255, 199, 177, 247)
 );
 
-var kLogoText = const Text(" TMDB");
+var kLogoText = const Text(" M A T E R I A L  3");
 
 void main() {
   runApp(const MainApp());
@@ -145,11 +145,11 @@ class MainApp extends StatelessWidget {
                 ))),
       ),
       routes: {
-        //if i want to go back to the authorization screen, i must change "/auth" to "/", AND use pushNamed istead of pushReplacementNamed
-        "/auth": (context) => const AuthWidget(),
-        "/main_screen": (context) => const MainScreenWidget(),
+        //if i want to go back to the authorization screen, i must change "/" to "/auth", AND use pushNamed istead of pushReplacementNamed
+        //"/auth": (context) => const AuthWidget(),
+        "/": (context) => const MainScreenWidget(),
       },
-      initialRoute: "/auth",
+      initialRoute: "/",
       // i rlly donno what the difference beween (RouteSettings settings) and (settings) down there
       onGenerateRoute: (RouteSettings settings) {
         return MaterialPageRoute(builder: (context) {
