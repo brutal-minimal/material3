@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:material3/input_widget.dart';
 import 'package:material3/main.dart';
 import 'package:material3/main_screen_widgets/home_widget.dart';
 import 'package:material3/main_screen_widgets/movies_widget.dart';
@@ -12,7 +13,6 @@ class MainScreenWidget extends StatefulWidget {
 
 class _MainScreenWidgetState extends State<MainScreenWidget> {
   int currentPageIndex = 0;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,12 +20,14 @@ class _MainScreenWidgetState extends State<MainScreenWidget> {
         title: kLogoText,
       ),
       body: const <Widget>[
+        UserInputWidget(),
         HomeWidget(),
         MoviesWidget(),
         ShowsWidget()
       ][currentPageIndex],
       bottomNavigationBar: NavigationBar(
         destinations: const <Widget>[
+          NavigationDestination(icon: Icon(Icons.input_outlined), label: "Input", selectedIcon: Icon(Icons.input)),
           NavigationDestination(icon: Icon(Icons.home_outlined), label: "Home", selectedIcon: Icon(Icons.home)),
           NavigationDestination(icon: Icon(Icons.movie_outlined), label: "Movies", selectedIcon: Icon(Icons.movie),),
           NavigationDestination(icon: Icon(Icons.tv_outlined), label: "Shows", selectedIcon: Icon(Icons.tv),),
