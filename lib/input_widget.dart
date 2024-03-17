@@ -25,6 +25,7 @@ class _UserInputWidgetState extends State<UserInputWidget> {
               height: 40,
             ),
             TextField(
+                
                 decoration: InputDecoration(labelText: "Opacity"),
                 maxLength: 3,
                 keyboardType: TextInputType.numberWithOptions(
@@ -45,9 +46,22 @@ class _UserInputWidgetState extends State<UserInputWidget> {
                 maxLength: 3,
                 keyboardType: TextInputType.numberWithOptions(
                     signed: false, decimal: false)),
+            //ElevatedButton(onPressed: onPressed, child: child)
+            
           ],
         ),
       ),
     );
   }
 }
+
+
+
+
+ColorScheme userInputColors (int uAlpha, int uRed, int uGreen, int uBlue){
+
+  ColorScheme userColorScheme = ColorScheme.fromSeed(seedColor: Color.fromARGB (uAlpha, uRed, uGreen, uBlue));
+  return userColorScheme;
+
+}
+
