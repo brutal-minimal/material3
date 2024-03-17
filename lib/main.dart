@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'main_screen_widget.dart';
+import 'input_widget.dart';
 
 //video no 123 of maximilian, learrning how to create a theme for my app
 
-var kColorScheme = ColorScheme.fromSeed(
+ var kColorScheme = ColorScheme.fromSeed(
   seedColor: const Color.fromARGB(255, 136, 94, 227),
 );
+
 
 var kLogoText = const Text(" M A T E R I A L  3");
 
